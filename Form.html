@@ -1,0 +1,109 @@
+<html>
+<style>
+ .search
+ {
+     float: right;
+     padding-right: 5px;
+ }
+  .topfields input[type=text] {
+    border: 1px solid #ccc;
+}
+.topfields a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnfields input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+.title{
+        margin-left: 100px;
+    }
+    .first_name{
+        margin-left: 58px;
+    }
+    .last_name{
+        margin-left: 60px;
+    }
+    .BirthDate{
+        margin-left: 42px;
+    }
+    .full_address{
+        margin-left: 48px;
+    }
+    .items{
+        margin-left: 27px;
+    }
+    .increment_number{
+        margin-left: 10px;
+        width: 30px;
+    }
+    .choose_any{
+        margin-left: 50px;
+    }
+</style>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<br> <br>
+<div class="topfields">
+        <img src="kellton.png" alt="kellton" width="42" height="42" align="left"> 
+        <a class="active" href="#" class ="Home">Home</a>
+        <a href="#" class="Product">Product</a>
+        <a href="#" class ="Company">Company</a>
+        <a href="#" class ="Blog">Blog</a>
+        <div class = "search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        <input type="text" placeholder="search">
+        </div>
+      </div>
+      <br> <br>
+<center> <h1> Online Registration </h1> </center>
+<fieldset>
+<form>
+ Title
+<select class=title>
+<option value="Mr.">Mr.</option>
+<option value="Mrs.">Mrs.</option>
+<option value="Miss">Miss</option>
+<option value="Dr.">Dr.</option>
+</select>
+<br> <br>
+First Name<input class="first_name" type=text name="First Name" value="First Name"><br> <br>
+Last Name<input class="last_name" type=text name="Last Name" value="Last Name"></br> <br>
+Date Of Birth<input class="BirthDate" type="date"></br>  <br>
+Full Address<textarea class="full_address" type=text></textarea></br>
+<span>Items you want <Textarea class="items" rows="4" cols="30">
+Item One
+Item Two
+Item Three
+</Textarea> <br> <br>
+Choose any<input class="choose_any" type="radio" name="radio" value="one" checked> Choose One<br>
+ <input class="choose_any1" type="radio" name="radio" value="two"> Choose Two<br>
+ <input class="choose_any1" type="radio" name="radio" value="Three"> Choose Three<br><br>
+<div class = "Incement Number">
+<label for="Incement Number"> Incement Number: </label>
+<input type="number"min="0"max="99" name="Incement Number" required> </div>
+<br> <br>
+<div class = "Conditions">
+<input type="radio" name="Conditions" value="Agree with Terms and Conditions" required>Agree with Terms and Conditions 
+</div>
+ <br> <br>
+ <div class = "submit" >
+<input type="submit" value="Register">    <input type="submit" value="Save Draft"> 
+</div>
+</form>
+</fieldset>
+</body>
+</html>
